@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/crystalcave.jpg);
+} 
+
+html body div.jumbotron.jumbotron-fluid {
+    text-align: center;
+}
+
+p {
+    color: purple;
+   
+}
+
+html body div.card.text-white.bg-primary.mb-3 {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.crystal {
+    border:1px solid green;
+    height: 200px;
+    width: 200px; 
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+
+html body div.crystals div.crystal {
+    float: right;
+    background: url(../images/skull1.jpg) no-repeat;
+    background-size: contain;
+    
+   
+
+}
+
+html body p#result {
+    text-align: center;
+    color: #ebebeb;
+}
+
+html body p#previous {
+    text-align: center;
+    color: #ebebeb;
+}

@@ -1,0 +1,46 @@
+  <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Crystal Skull Collector Game</h1>
+                  <br>
+                  <h4 class="lead">Albert Raymond Cozzette</h4>
+                </div>
+              </div>
+
+              <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">How to play:</div>
+                    <div class="card-body">
+                      <br>
+                      <p class="card-text"><p>You will be given a random number at the start of the game.</p>
+                      <br>
+                      <p>There are 4 crystal skulls below. By clicking on a crystal skull you will add a specific amount of points to your total score.</p>
+                      <br>
+                      <p>You win the game by matching your total score to random number, you lose the game if your total score goers above the random number.</p>
+                      <br>
+                      <p>The value of each crystal skull is hidden from you until you click on it.</p>
+                      <br>
+                      <p>Each time when the game starts, the game will change the values of each crystal.</p></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            body {
+    /* background-image: url(../images/crystalcave.jpg); */
+} 
+
+html body div.jumbotron.jumbotron-fluid {
+    text-align: center;
+}
+
+p {
+    color: #ebebeb;
+}
+
+html body div.card.text-white.bg-primary.mb-3 {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
