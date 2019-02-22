@@ -1,9 +1,10 @@
 body {
     background-image: url(../images/skull6.jpg);
     
-} 
+}
 
 html body div.jumbotron.jumbotron-fluid {
+    font-family: 'Nosifer', cursive;
     text-align: center;
     color: #ebebeb;
 }
@@ -39,13 +40,11 @@ html body div.crystals div.crystal {
     background: url(../images/skull8.jpg) no-repeat;
     background-size: contain;
     
-    
-   
-
 }
 
 
 #win, #lost, html body p#previous, html body p#result {
+    
     text-align: center;
     color: #ebebeb;
     font-size: 150%;

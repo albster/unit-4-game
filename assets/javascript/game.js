@@ -1,12 +1,12 @@
 // pseudo code
 
-// a game with 4 crystal and random result
-// every crystal needs to have a random number between 1-12
+// a game with 4 skulls and random number
+// every skull needs to have a random number between 1-12
 // a new random number should be generated every single time we win or lose
-// to those 4 crystal 
-// when clicking any crystal, it should be adding with the previous result
-// until it equals to the random result
-// if it is greater then the random result, we decrement a lost counter
+// to those 4 skulls 
+// when clicking any skull, it should be adding with the previous result
+// until it equals to the random number
+// if it is greater then the random number, we decrement a lost counter
 // if it is equal, then we increment a win counter
 
 // golbal variables
@@ -30,7 +30,7 @@ var resetAndStart = function () {
     random_result = Math.floor(Math.random() * 50 ) + 30;
 // console.log(random_result); used to verify output
 
-$("#result").html('Random Result: ' + random_result);
+$("#result").html('Random Number: ' + random_result);
 
 
 for(var i = 0; i < 4; i++){
